@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Mainx
+{
+     width: 100vw;
+     height: 100vh;
+     background-image: url(./assets/focal.png);
+     background-size: cover;
+     position: relative;
+     background-position: right;
+}
+.img3
+{
+  position: absolute;
+  z-index: 0;
+  display: none;
+}
+.img1
+{
+  position: absolute;
+  top: 43px;
+  left: 85px;
+  z-index: 1;
+}
+.img2
+{
+  position: absolute;
+  top: 40px;
+  right: 80px;
+}
+.img4
+{
+  position: absolute;
+  top: 43px;
+  left: 85px;
+  z-index: 1;
+  display: none;
+}
+.img5
+{
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  display: none;
+}
+.footer
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px 33px 85px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.footer span
+{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.57px;
+  text-align: left;
+}
+.footer>div
+{
+  text-align: center;
+}
+.footer p
+{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+  text-align: left;
+  margin-top: 19px;
+}
+.midea
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile
+{
+  display: none;
+}
+@media(max-width:1020px)
+{
+    .footer span
+  {
+    font-size: 20px;
+  }
+  .footer p
+  {
+    font-size: 20px;
+  }
+  .midea img
+  {
+    margin-left: 10px;
+    width: 19px;
+  }
+}
+@media(max-width:900px)
+{
+  .mobile
+  {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile div
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobile span
+  {
+    font-family: Montserrat;
+    font-size: 38.06px;
+    font-weight: 800;
+    line-height: 46.4px;
+    color: #FFFFFF;
+  }
+  .mobile .p1
+  {
+    font-family: Montserrat;
+  font-size: 17.73px;
+  font-weight: 300;
+  line-height: 21.62px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 50px;
+  }
+  .mobile .p2
+  {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 36.57px;
+    letter-spacing: 0.18em;
+    text-align: left;    
+  color: #FFFFFF;
+  margin-top: 10px;
+  }
+  .Mainx
+  {
+      width: 100vw;
+      height: 100vh;
+      background-image: url(./assets/Mask1233.png);
+      background-size: cover;
+      position: relative;
+      background-position: right;
+  }
+  .footer
+  {
+    flex-direction: column;
+    gap: 43px;
+  }
+  .img1
+  {
+    display: none;
+  }
+  .img3
+  {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.651);
+  }
+  .img4
+  {
+    top: 36px;
+    left: 18px;
+    display: block;
+  }
+  .img5
+  {
+    top: 36px;
+    right: 15px;
+    display: block;
+  }
+  .img2
+  {
+    display: none;
+  }
+  .footer p
+  {
+    margin-top: 13px;
+    line-height: 25px;
+  }
+  .footer span
+  {
+    line-height: 25px;
+  }
+}
+
+@media(max-width:360px)
+{
+  .footer span
+  {
+    font-size: 16px;
+    text-align: center;
+  }
+  .footer p
+  {
+    font-size: 14px;
+    text-align: center;
+  }
+  .mobile span
+  {
+    font-size: 30.06px;
+  }
+  .mobile .p1
+  {
+  font-size: 12.73px;
+  font-weight: 300;
+  line-height: 21.62px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 50px;
+  }
+  .mobile .p2
+  {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 36.57px;
+    letter-spacing: 0.18em;
+    text-align: left;    
+  color: #FFFFFF;
+  margin-top: 10px;
+  }
+}
