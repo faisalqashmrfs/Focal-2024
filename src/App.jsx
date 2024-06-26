@@ -36,11 +36,11 @@ function App() {
         <div>
           <span>Keep In Touch</span>
           <p className='midea'>
-            <img src={focal3} alt="" />
-            <img src={focal4} alt="" />
-            <img src={focal5} alt="" />
-            <img src={focal6} alt="" />
-            <img src={focal7} alt="" />
+            <a href="https://www.facebook.com/focal.x.agency/"><img src={focal3} alt="" /></a>
+            <a href="https://www.behance.net/focal-x-agency"><img src={focal4} alt="" /></a>
+            <a href="https://www.linkedin.com/company/focal-x-agency/"><img src={focal5} alt="" /></a>
+            <a href="https://www.instagram.com/focal.x.agency"><img src={focal6} alt="" /></a>
+            <a href="https://twitter.com/focal_x_agency"><img src={focal7} alt="" /></a>
           </p>
         </div>
       </div>

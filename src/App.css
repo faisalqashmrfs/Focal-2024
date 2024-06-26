@@ -26,12 +26,14 @@
   top: 43px;
   left: 85px;
   z-index: 1;
+  width: 100px;
 }
 .img2
 {
   position: absolute;
   top: 40px;
   right: 80px;
+  width: 142px;
 }
 .img4
 {
@@ -62,7 +64,7 @@
 {
   color: #FFFFFF;
   font-family: Montserrat;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 36.57px;
   text-align: left;
@@ -75,17 +77,21 @@
 {
   color: #FFFFFF;
   font-family: Montserrat;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 36.57px;
   text-align: left;
-  margin-top: 19px;
+  margin-top: 10px;
 }
 .midea
 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.midea img
+{
+  width: 22px;
 }
 .mobile
 {
